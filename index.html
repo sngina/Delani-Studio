@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delani Studio</title>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"> integrity = "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin = "anonymous" >
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity = "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
             <script src="script.js"></script>
     <link href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
@@ -14,13 +14,17 @@
 
 <body>
     <div class="delani">
-        <div class="assets">
+        <div class="assets-container">
+            <div class="assets">
+            <div id="stella">
             <img src="./assets/logo/logo.png">
             <p>WELCOME</p>
             <p>TO DELANI STUDIO</p>
             <p>AMAZING PEOPLE ARE MAKING DESIGNS IN A FUN ENVIRONMENT</p>
+        </div>
             <div class="mouse"> <img src="./assets/mouse_click.png">
             </div>
+        </div>
         </div>
         <div id="about">
             <div id="team">
@@ -42,14 +46,28 @@
             <p>The outcome of this scoping session is a proposal or high-level statement of work.</p>
             <p>based on your requirements,we can provide accomplete offerings or just pieces you need</p>
         </div>
-        <div class="studio" col-md-4>
-            <div id="product">
+        <div class="container">
+        <div class="studio row-cols-xl-3">
+            <div id="design"  class="col-md-3">
                 <img src="./assets/services_icons/design_icon.png">
                 <h2>Design</h2>
                 <p>Our design practice offers a full range of services including a brand strategy,interaction and visual design and user experience testing. </p>
 
                 <p>Throught your project, our designers create and implement visual design and workflows solict users feedback and work with you to make sure  what gets build is what is neede .</p>
             </div>
+            <div id="development"  class="col-md-3">
+                <img src="./assets/services_icons/dev_icon.png">
+                <h3>Development</h3>
+                <p>All engineers are fluent in the latest enterprise, mobile and web development technologies</p>
+                <p>They collaborate with your team to write and improve your code on a daily basis,using proven practices such as test-driven development and pair programming</p>
+             </div>
+            <div id="management" class="col-md-3">
+                <img src="./assets/services_icons/product_icon.png">
+                <h4>Product Management</h4>
+                <p>Planning development is iterative.Because we are constantly coding and texting, the products we build are always ready to go live</p>
+                <p>This iterative process allows for change as business requirements evolve </p>
+            </div>
+        </div>
         </div>
     </div>
 </body>
