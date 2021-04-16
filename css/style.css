@@ -1,4 +1,16 @@
 .assets{
+    background-image:url('/assets/backgrounds/h_img.jpg');
+    background-size: cover;
+    width: 100%;
+    box-sizing: border-box;
+    height:80vh;
+    color: white;
+    padding: 40px;
     display: flex;
-    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font: size 40px;;
+
+
 }
