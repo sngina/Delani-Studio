@@ -10,13 +10,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font: size 40px;;
+    font-size: 30px;
 
 
 }
 .mouse{
-    align-items: baseline;
-    justify-content: baseline;
+    display: flex;
+    text-align: end;
+
 
     
 }
@@ -33,11 +34,12 @@
 .services{
     background-image: url('/assets/backgrounds/s_image.jpg');
     padding: 80px;
+    width: 80%;
     height:50vh ;
     box-sizing: border-box;
     background-repeat: no-repeat;
-    align-items: center;
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 20px;
 
 }
