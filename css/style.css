@@ -55,6 +55,18 @@
     background-repeat: no-repeat;
     text-align: center;
     color: white;
-    font-size: 20px;  
+    font-size: 20px;
+    
+    
 
+
+}
+.studio{
+    display: flex;
+    font-size: 20px;
+}
+.portfolio{
+    text-align: center;
+    font-size: 24px;
+    
 }
