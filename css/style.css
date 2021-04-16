@@ -68,5 +68,13 @@
 .portfolio{
     text-align: center;
     font-size: 24px;
-    
+
+}
+.contact{
+    background-image: url('/assets/backgrounds/c_image.jpg');
+    padding: 80px;
+    height: 50vh;
+    font-size: 24px;
+    color: white;
+    text-align: center;
 }
