@@ -4,7 +4,7 @@
 ## Description
 This is a portfolio that has more details information of Delani and the services offered
 ## Setup/Installation Requirements
-* Clone the repo https://sngina.github.io/Stella-Portfolio/
+* Clone the repo https://sngina.github.io/Delani-Studio/
 $ cd ../path/to/the/file
 $ npm install
 $ npm start
@@ -12,7 +12,7 @@ $ npm start
 
 
 ## Live link
-https://sngina.github.io/Stella-Portfolio/
+https://sngina.github.io/Delani-Studio/
 ## Known Bugs
 There are no known bugs. 
 ## Technologies Used
