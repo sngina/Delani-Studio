@@ -28,7 +28,27 @@ $(document).ready(function () {
 
     })
 
-
+    $(".pro1").hover(function(){
+        $(".ptext1").toggle()
+      });
+      $(".pro2").hover(function(){
+        $(".ptext2").toggle()
+      });
+      $(".pro3").hover(function(){
+        $(".ptext3").toggle()
+      });$(".pro4").hover(function(){
+        $(".ptext4").toggle()
+      });$(".pro5").hover(function(){
+        $(".ptext5").toggle()
+      });$(".pro6").hover(function(){
+        $(".ptext6").toggle()
+      });
+      $(".pro7").hover(function(){
+        $(".ptext7").toggle()
+      });$(".pro8").hover(function(){
+        $(".ptext8").toggle()
+      });
+    
     $("#button").click(function(event){
         event.preventDefault();
         var name = $("#name").val();
@@ -41,6 +61,8 @@ $(document).ready(function () {
         else{
             alert("Thank you "+name+". for reaching out to us via email: "+email)
         }
+        
+        
     })
 
 });
